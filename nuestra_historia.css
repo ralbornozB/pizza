@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    background-color: #fff9f2;
+    font-family: "Roboto", sans-serif;
+}
+
+.lista{
+    z-index: 1;
+  /*  position: fixed; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    text-align: center;
+    margin: 0;
+    background-color: #e4002b;
+    padding-right: 379px;
+    padding-left: 380px;
+}
+
+li{
+    width: 120px;
+    color: white;
+    background-color: #e4002b;
+    padding: 10px;
+    display: inline-block;
+    margin: 12px 10px 12px 10px;
+    font-size: 13px;
+}
+
+li:hover{
+    border: 1px solid #f7bc00;
+    border-radius: 15px;
+    background-color: #f7bc00;
+    color: #e4002b;
+}
+
+a:hover{
+    color: #e4002b;
+}
+
+.whatsapp-icon{
+    position: fixed;
+    z-index: 1;
+    font-size: 40px;
+    color: greenyellow;
+    bottom: 10px;
+    left: 1850px;
+}
+
+.historia{
+    text-align: center;
+    background-color: white;
+    width: 700px;
+    margin-top: 110px;
+    padding: 50px;
+    margin-left: 550px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgb(88, 88, 88);
+}
+
+img{
+    width: 200px;
+    border-radius: 2000px;
+    height: 200px;
+    border: 5px solid #e4002b;
+
+}
+
+h1{
+    font-family: "Great Vibes", cursive;
+    color: #e4002b;
+    font-size: 50px;
+}
